@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        line-height: 1.6;
+      }
+      header {
+        background: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background: #333;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        padding: 20px;
+      }
+      img {
+        width: 150px;
+        border-radius: 50%;
+      }
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+      form input,
+      form select,
+      form textarea {
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px;
+      }
+      button {
+        background: #4caf50;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Profil Saya</h1>
+      <p>Selamat datang di halaman profil pribadi</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <!-- Section 1 -->
+      <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <img src="ftAulia.jpeg" alt="Foto profil saya sedang tersenyum" />
+        <p><strong>Nama:</strong> Aulia illah</p>
+        <p><strong>Jurusan:</strong> Teknik Informatika</p>
+        <p><strong>Universitas:</strong> Politeknik negeri lhokseumawe</p>
+        <p>
+          Saya adalah mahasiswa yang tertarik pada bidang teknologi, khususnya
+          pengembangan web dan pemrograman.
+        </p>
+      </section>
+
+      <!-- Section 2 -->
+      <section id="keahlian">
+        <h2>Keahlian</h2>
+        <ul>
+          <li>HTML</li>
+          <li>Database (MySQL)</li>
+          <li>Problem Solving</li>
+          <li>Kerja Tim</li>
+          <li>Komunikasi</li>
+        </ul>
+      </section>
+
+      <!-- Section 3 -->
+      <section id="pengalaman">
+        <h2>Pengalaman</h2>
+        <ol>
+          <li>2025 - balajar bahasa C++</li>
+          <li>2026 - Belajar dasar HTML & CSS</li>
+        </ol>
+      </section>
+
+      <!-- Section 4 -->
+      <section id="kontak">
+        <h2>Kontak</h2>
+        <form>
+          <label>Nama:</label>
+          <input type="text" name="nama" required />
+
+          <label>Email:</label>
+          <input type="email" name="email" required />
+
+          <label>Subjek:</label>
+          <select name="subjek">
+            <option value="pertanyaan">Pertanyaan</option>
+            <option value="kerjasama">Kerjasama</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+
+          <label>Pesan:</label>
+          <textarea name="pesan" rows="5" required></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Nama Lengkap Kamu | 2026</p>
+      <p>
+        <a href="https://github.com/username" style="color: white">GitHub</a> |
+        <a href="https://linkedin.com/in/username" style="color: white"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
