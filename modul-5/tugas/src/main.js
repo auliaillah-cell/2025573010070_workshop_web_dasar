@@ -8,7 +8,7 @@ if (localStorage.getItem("theme") === "dark") {
   html.classList.add("dark");
   btn.textContent = "light";
 }
-btn.addEventListener("click", () => {
+btn.addEventListener("click", () => {  
   html.classList.toggle("dark");
   const isDark = html.classList.contains("dark");
   btn.textContent = isDark ? "light" : "dark";

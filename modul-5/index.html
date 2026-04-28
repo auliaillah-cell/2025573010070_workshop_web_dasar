@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="id">
+<html lang="id" class="">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind CSS</title>
+    <title>modul-5</title>
   </head>
   <body
     class="bg-gray-50 dark:bg-slate-950 font-sans transition-colors duration-300"
@@ -20,8 +21,9 @@
             >
           </li>
           <li>
-            <a href="#" class="hover:text-cyan-400 transition-colors">Layanan</a
-            >~
+            <a href="#" class="hover:text-cyan-400 transition-colors"
+              >Layanan</a
+            >
           </li>
           <li>
             <a href="#" class="hover:text-cyan-400 transition-colors">Blog</a>
@@ -37,15 +39,12 @@
         >
           Masuk
         </a>
-        <!-- Tambahkan tombol toggle di navbar, setelah tombol Masuk -->
-        <button
-          id="toggleDark"
-          class="ml-3 p-2 rounded-lg bg-slate-700 hover:bg-slate-600 text-white transition-colors"
-          title="Toggle Dark Mode"
-        >
-          Dark
-        </button>
       </div>
+      <button
+            id="toggleDark"
+            class="ml-3 p-2 rounded-lg bg-slate-700 hover:bg-slate-600 text-white transition-colors"
+            title="Toggle Dark Mode"
+          >
     </nav>
     <main class="max-w-6xl mx-auto px-6 py-10">
       <!-- Hero Section -->
@@ -136,7 +135,7 @@
             </span>
           </div>
           <div
-            class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+            class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
           >
             <div
               class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center text-2xl mb-4"
@@ -192,7 +191,7 @@
             </span>
           </div>
           <div
-            class="bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl p-6 text-white hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+            class="bg-linear-to-br from-cyan-500 to-blue-600 rounded-2xl p-6 text-white hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
           >
             <div
               class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center text-2xl mb-4"
@@ -210,85 +209,86 @@
             </span>
           </div>
         </div>
-        <!-- Form Section — tambahkan setelah </section> kartu -->
-        <section class="mt-16 max-w-xl mx-auto">
-          <h2 class="text-3xl font-bold text-slate-900 text-center mb-8">
-            Daftar Sekarang
-          </h2>
-          <form
-            class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 space-y-5"
-          >
-            <!-- Input Group -->
-            <div>
-              <label
-                class="block text-sm font-semibold text-slate-700 mb-1.5"
-                for="nama"
-              >
-                Nama Lengkap
-              </label>
-              <input
-                id="nama"
-                type="text"
-                placeholder="Masukkan nama kamu"
-                class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
-              />
-            </div>
-            <div>
-              <label
-                class="block text-sm font-semibold text-slate-700 mb-1.5"
-                for="email"
-              >
-                Alamat Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                placeholder="contoh@email.com"
-                class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
-              />
-            </div>
-            <div>
-              <label
-                class="block text-sm font-semibold text-slate-700 mb-1.5"
-                for="kelas"
-              >
-                Pilih Kelas
-              </label>
-              <select
-                id="kelas"
-                class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
-              >
-                <option value="">-- Pilih kelas --</option>
-                <option>Kelas A — Senin/Rabu</option>
-                <option>Kelas B — Selasa/Kamis</option>
-              </select>
-            </div>
-            <div>
-              <label
-                class="block text-sm font-semibold text-slate-700 mb-1.5"
-                for="pesan"
-              >
-                Pertanyaan (opsional)
-              </label>
-              <textarea
-                id="pesan"
-                rows="3"
-                placeholder="Ada yang ingin ditanyakan?"
-                class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm resize-none focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
-              ></textarea>
-            </div>
+      </section>
+      <section class="mt-16 max-w-xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 text-center mb-8">
+          Daftar Sekarang
+        </h2>
+        <form
+          class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 space-y-5"
+        >
+          <!-- Input Group -->
+          <div>
+            <label
+              class="block text-sm font-semibold text-slate-700 mb-1.5"
+              for="nama"
+            >
+              Nama Lengkap
+            </label>
+            <input
+              id="nama"
+              type="text"
+              placeholder="Masukkan nama kamu"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
+            />
+          </div>
+          <div>
+            <label
+              class="block text-sm font-semibold text-slate-700 mb-1.5"
+              for="email"
+            >
+              Alamat Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              placeholder="contoh@email.com"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
+            />
+          </div>
+          <div>
+            <label
+              class="block text-sm font-semibold text-slate-700 mb-1.5"
+              for="kelas"
+            >
+              Pilih Kelas
+            </label>
+            <select
+              id="kelas"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
+            >
+              <option value="">-- Pilih kelas --</option>
+              <option>Kelas A — Senin/Rabu</option>
+              <option>Kelas B — Selasa/Kamis</option>
+            </select>
+          </div>
+          <div>
+            <label
+              class="block text-sm font-semibold text-slate-700 mb-1.5"
+              for="pesan"
+            >
+              Pertanyaan (opsional)
+            </label>
+            <textarea
+              id="pesan"
+              rows="3"
+              placeholder="Ada yang ingin ditanyakan?"
+              class="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm resize-none focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition"
+            ></textarea>
+          </div>
+          
             <button
               type="submit"
               class="w-full bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 text-white font-bold py-3 rounded-xl transition-colors focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2"
             >
               Daftar Sekarang →
             </button>
-          </form>
-        </section>
+          </button>
+        </form>
       </section>
       <!-- Sebelum: class panjang berulang -->
       <button
-        class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 bg-cyan-500 text-white hover:bg-cyan-600 ..."
+        class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 bg-cyan-500 text-white hover:bg-cyan-600"
       >
         Daftar
       </button>
@@ -296,8 +296,8 @@
       <button class="btn-primary">Daftar</button>
       <button class="btn-outline">Batal</button>
       <button class="btn-danger">Hapus</button>
-      <input type="text" class="input" placeholder="Nama kamu..." />
+      <input type="text" class="input" placeholder="Nama kamu" />
     </main>
-    <script type="module" src="src/main.js"></script>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
